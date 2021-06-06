@@ -9,6 +9,7 @@
 function generatePassword() {
   var dataInput ="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()";
   var passwordLength = 15;
+  var password = "";
          for (var i = 0; i < passwordLength; i++) {
       var calculate = Math.floor(Math.random() * dataInput.length);
       password += dataInput.substring(calculate, calculate + 1);
