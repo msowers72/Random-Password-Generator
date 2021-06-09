@@ -1,9 +1,11 @@
+/* Universal Selector */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
+/* Styles the body of the document */
 html,
 body,
 .wrapper {
@@ -12,17 +14,20 @@ body,
   padding: 0;
 }
 
+/* Styles the body of the document */
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
 }
 
+/* Class Selcetor */
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
+/* Type Selector */
 header {
   text-align: center;
   padding: 20px;
@@ -30,6 +35,7 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+/* Class Selector */
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -42,6 +48,7 @@ header {
   padding: 30px 40px;
 }
 
+/* Class Selector */
 .card-header::after {
   content: " ";
   display: block;
@@ -50,6 +57,7 @@ header {
   height: 2px;
 }
 
+/* Class Selector */
 .card-body {
     background-color: hsl(0, 0%, 100%);
     border-radius: 5px;
@@ -62,10 +70,12 @@ header {
     padding: 30px 40px;
 }
 
+/* Class Selector */
 .card-footer {
   text-align: center;
 }
 
+/* Class Selector */
 .card-footer::before {
   content: " ";
   display: block;
@@ -74,12 +84,14 @@ header {
   height: 2px;
 }
 
+/* Class Selector */
 .card-footer::after {
   content: " ";
   display: block;
   clear: both;
 }
 
+/* Class Selector */
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
@@ -96,15 +108,18 @@ header {
   cursor: pointer;
 }
 
+/* Descendant Selector */
 button [disabled] {
   cursor: default;
   background: #c0c7cf;
 }
 
+/* Class Selector */
 .float-right {
   float: right;
 }
 
+/* id Selector */
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -126,6 +141,7 @@ button [disabled] {
   overflow: hidden;
 }
 
+/* @media rule is used in media queries to apply different styles for different media types/devices */
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
@@ -133,11 +149,13 @@ button [disabled] {
     padding: 10px 15px;
   }
 
+  /* id Selector */
   #password {
     font-size: 1rem;
   }
 }
 
+/* @media rule is used in media queries to apply different styles for different media types/devices */
 @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;
