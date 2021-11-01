@@ -1,4 +1,4 @@
-# Workout-Tracker
+# Random-Password-Generator
 
 # Table of Contents
 - [Username](#username)
@@ -49,9 +49,9 @@ Upon answering the prompts the password will generate and appear in the box.
  ## Deployed
  [Workout Tracker Link](https://msowers72.github.io/Random-Password-Generator/)
  
- 
- ![images](./assets/03-javascript-homework-demo.png) 
- 
+ ![03-javascript-homework-demo](https://user-images.githubusercontent.com/80433477/139610151-e57ebfbe-d414-4e33-9c31-fa8e7114acc8.png)
+
+
 
 
 
