@@ -47,7 +47,7 @@ Upon answering the prompts the password will generate and appear in the box.
 <!-- ![Tux, the Linux mascot](https://img.shields.io/badge/License-MIT-green) -->
   
  ## Deployed
- [Workout Tracker Link](https://msowers72.github.io/Random-Password-Generator/)
+ [Password-Generator Link](https://msowers72.github.io/Random-Password-Generator/)
  
  ![03-javascript-homework-demo](https://user-images.githubusercontent.com/80433477/139610151-e57ebfbe-d414-4e33-9c31-fa8e7114acc8.png)
 
